@@ -1,5 +1,4 @@
 def mario
-  
   phrase = "It's-a me, Mario!"
   puts phrase
 end
@@ -10,4 +9,12 @@ def toadstool
 end
 
 def link
-  status 
+  status = "It's Dangerous To Go Alone! Take This."
+  puts status
+end
+
+def all_phrases
+  mario 
+  toadstool
+  link
+end
